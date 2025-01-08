@@ -2,6 +2,10 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 // Typography
 
 p,
@@ -246,8 +250,8 @@ ul.task-list input[type="checkbox"] {
 .navbar {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
-  background-color: var(--global-bg-color);
-  opacity: 0.95;
+  background-color: var(--global-nav-color);
+  opacity: 0.65;
 }
 
 .navbar .dropdown-menu {
@@ -265,6 +269,51 @@ ul.task-list input[type="checkbox"] {
   .dropdown-divider {
     border-top: 1px solid var(--global-divider-color) !important;
   }
+}
+
+.subtitle {
+  color: var(--global-theme-color);
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;  /* Slightly larger for better emphasis */
+  // font-weight: 500;  /* A bit bolder for emphasis */
+  // padding: 10px 0;  /* Vertical padding for breathing space */
+  // line-height: 1.4;  /* Add some space between lines if wrapped */
+  background: linear-gradient(45deg, #007BA7, #008080); /* Subtle gradient background for visual interest */
+  -webkit-background-clip: text;  /* Make gradient visible only on the text */
+  background-clip: text; /* Make gradient visible only on the text */
+  color: transparent;  /* Color transparency to make gradient visible */
+  margin-top: 0;
+}
+
+.subtitle span {
+  font-weight: normal;  /* Maintain balance in the subtitle */
+}
+
+.custom-font-theme {
+  color: var(--global-theme-color);
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: 500;  /* A bit bolder for emphasis */
+  background: linear-gradient(45deg, #007BA7, #008080); /* Subtle gradient background for visual interest */
+  -webkit-background-clip: text;  /* Make gradient visible only on the text */
+  background-clip: text;
+  color: transparent;  /* Color transparency to make gradient visible */
+  // margin-top: 20px;  /* Reduced upper margin */
+}
+
+
+
+.custom-font-red {
+  color: red; 
+  font-family: 'Phenomena', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;  /* A bit bolder for emphasis */
+  background: linear-gradient(45deg, #ff6b6b, #b22222);  /* Subtle gradient background for visual interest */
+  -webkit-background-clip: text;  /* Make gradient visible only on the text */
+  background-clip: text;
+  color: transparent;  /* Color transparency to make gradient visible */
+  margin-top: 20px;  /* Reduced upper margin */
 }
 
 .dropdown-item {
@@ -398,10 +447,12 @@ ul.task-list input[type="checkbox"] {
 // Social (bottom)
 
 .social {
-  text-align: center;
+  text-align: left;
+  
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2.5rem;
+    color: var(--global-theme-color);
 
     a {
       img {
@@ -578,6 +629,7 @@ footer.sticky-bottom {
 }
 
 .post-title {
+  margin-bottom: 0;
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
@@ -714,8 +766,8 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
+    color: var(--global-theme-color);
+    border-top: 1px solid var(--global-theme-color);
     padding-top: 1rem;
     margin-top: 2rem;
     text-align: right;
@@ -729,8 +781,8 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
 
-      .preview {
-      }
+      // .preview {
+      // }
 
       .abbr {
         margin-bottom: 0.5rem;
