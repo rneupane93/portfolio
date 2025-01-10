@@ -17,7 +17,7 @@ news: true # includes a list of news items
 ---
 
 <h2> about me... </h2>
-I’m a PhD student in Computer Science at the University of Missouri, currently in my 4th year, and a Cyberinfrastructure Engineer at the Center for Excellence in Research and Innovation (CERI) within University of Missouri College of Engineering. I'm a passionate researcher fascinated by the intersection of cybersecurity, cloud computing, and AI. I enjoy solving complex problems, leading innovative projects, and collaborating with brilliant minds to bring bold ideas to life.
+I’m a PhD student in Computer Science at the University of Missouri, currently in my 4th year, and a Cyberinfrastructure Engineer at the Center for Cyber Education, Resaerch and Infrastructure (CERI) within University of Missouri College of Engineering. I'm a passionate researcher fascinated by the intersection of cybersecurity, cloud computing, and AI. I enjoy solving complex problems, leading innovative projects, and collaborating with brilliant minds to bring bold ideas to life.
 
 Over the years, I’ve had the privilege of working on projects that range from securing cloud platforms against modern cyber threats to building intelligent blockchain solutions for smart grids and insurance claims. Along the way, I’ve published papers in top-tier conferences and journals, exploring everything from active cyber defense to IoT security. Each project has been an opportunity to combine cutting-edge technology with practical, real-world applications.
 

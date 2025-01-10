@@ -3,9 +3,9 @@
 # Run this script to deploy the app to Github Pages
 
 # Parse cmd arguments
-
 SRC_BRANCH="main"
 DEPLOY_BRANCH="deploy_branch"
+CNAME="roshanln.com.np"
 
 USAGE_MSG="usage: deploy [-h|--help] [-u|--user] [-s|--src SRC_BRANCH] [-d|--deploy DEPLOY_BRANCH] [--verbose] [--no-push]"
 
@@ -106,6 +106,9 @@ rm -R _site/
 # Create `.nojekyll` file (bypass GitHub Pages Jekyll processing)
 touch .nojekyll
 
+# Add CNAME file for custom domain
+echo "$CNAME" > CNAME
+
 # Push to DEPLOY_BRANCH
 git add -fA
 git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"
@@ -114,6 +117,6 @@ git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"
 # Move back to SRC_BRANCH
 git checkout $SRC_BRANCH
 
-echo "Deployed successfully!"
+echo "Deployed successfully with CNAME set to $CNAME!"
 
 exit 0
