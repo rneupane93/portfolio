@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Roshan Lal Neupane",
-    "label": "Cloud Computing and Cybersecurity Professional",
+    "designation": "Cybersecurity Researcher and Cyberinfrastructure Engineer",
     "image": "",
-    "email": "neupaner@missouri.edu",
+    "email": "neupanerATmissouriDOTedu",
     "phone": "+1 (720) 690-5853",
-    "url": "https://github.com/rneupane93",
+    "website": "https://www.roshanln.com.np",
     "location": {
       "address": "W2003 Lafferre Hall",
       "postalCode": "65211",
@@ -16,17 +16,17 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "RoshanNeupane",
+        "handle": "roshanln",
         "url": "https://www.linkedin.com/in/roshanln/"
       },
       {
         "network": "Google Scholar",
-        "username": "RoshanNeupane",
+        "username": "Roshan Neupane",
         "url": "https://scholar.google.com/citations?user=m4GAAnUAAAAJ&hl=en&oi=ao"
       },
       {
         "network": "GitHub",
-        "username": "rneupane93",
+        "handle": "rneupane93",
         "url": "https://github.com/rneupane93"
       }
     ]
@@ -58,7 +58,7 @@
       "name": "Infosys Limited",
       "position": "Senior Associate Consultant",
       "startDate": "2019-12-01",
-      "endDate": "2021-01-01",
+      "endDate": "2021-01-19",
       "summary": "Developed secure applications using Appian platform and REST APIs.",
       "highlights": [
         "Implemented LDAP and AD integration for secure SSO solutions.",
@@ -72,10 +72,10 @@
       "location": "Columbia, MO, USA",
       "url": "https://missouri.edu/",
       "area": "Computer Science",
-      "studyType": "PhD",
-      "startDate": "2021-01-01",
+      "studyType": "Doctor of Philosophy",
+      "startDate": "2021-01-20",
       "endDate": "Present",
-      "courses": ["Cybersecurity", "Cloud Computing", "AI/ML"]
+      "courses": ["Cyber Defense", "Cloud Computing", "Artificial Intelligence"]
     },
     {
       "institution": "University of Missouri, Columbia",
@@ -83,9 +83,9 @@
       "url": "https://missouri.edu/",
       "area": "Computer Science",
       "studyType": "Master of Science",
-      "startDate": "2015-01-01",
-      "endDate": "2017-01-01",
-      "courses": ["Cybersecurity", "Machine Learning"]
+      "startDate": "2015-08-15",
+      "endDate": "2017-12-15",
+      "courses": ["Algorithm Design", "Machine Learning", "Data Mining and Knowledge Discovery"]
     },
     {
       "institution": "Visvesvaraya Technological University",
@@ -112,14 +112,24 @@
   ],
   "skills": [
     {
-      "name": "Cloud Computing",
+      "name": "Cloud Computing/DevOps",
       "level": "Expert",
       "keywords": [
         "AWS",
         "GCP",
         "Kubernetes",
-        "Docker",
-        "Hyperledger"
+        "Docker"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "Expert",
+      "keywords": [
+        "Python",
+        "Bash/Shell",
+        "JS",
+        "Hyperledger",
+        "REST"
       ]
     },
     {
@@ -127,20 +137,25 @@
       "level": "Expert",
       "keywords": [
         "AI/ML for Cyber Defense",
-        "Blockchain",
+        "Attack Modeling, Detection, and Mitigation",
         "Active Defense"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Nepali",
       "fluency": "Native speaker",
-      "icon": ""
+      "icon": "fas fa-flag-ne"
     },
     {
       "language": "English",
       "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Conversational",
       "icon": ""
     }
   ],
@@ -160,11 +175,46 @@
   ],
   "projects": [
     {
-      "name": "Placeholder Project",
-      "summary": "This is a placeholder for project details. You can update this section later.",
+      "name": "Dolus - Defense By Pretense",
+      "summary": "Network security framework that leverages quarantine and deception to defend against DDoS and Advanced Persistent Threat/Mining.",
       "highlights": [],
-      "startDate": "TBD",
-      "endDate": "TBD"
+      "startDate": "2016",
+      "endDate": "2018"
+    },
+    {
+      "name": "Fintech Blockchain (ClaimChain)",
+      "summary": "Blockchain for ensuring security for insurance claims processing at application and infrastructure level encompassing fraud detection, cyber threat detection",
+      "highlights": [],
+      "startDate": "2021",
+      "endDate": "2022"
+    },
+    {
+      "name": "Smart Grid Blockchain (SGChain)",
+      "summary": "Hyperledger Fabric-based chain-of-chain blockchain for secure and efficient energy trading in smart grids with robust security framework for loss of availability issues in Smart Grids.",
+      "highlights": [],
+      "startDate": "2022",
+      "endDate": "2024"
+    },
+    {
+      "name": "Ransomware Game Theory",
+      "summary": "Game theory-based strategic deception for ransomware defense using backward induction to solve a complete and extensive game.",
+      "highlights": [],
+      "startDate": "2023",
+      "endDate": "Present"
+    },
+    {
+      "name": "CIBR-Fort",
+      "summary": "Knowledge-driven threat modeling, analysis and mitigation framework for smart grids integrating security and power knowledge graphs powered by LLM and RAG models.",
+      "highlights": [],
+      "startDate": "2023",
+      "endDate": "Present"
+    },
+    {
+      "name": "Arculus",
+      "summary": "Task-Based Access Control for Computation and Communication and AI-driven drone mission recovery in the Tactical Warfighting Edge.",
+      "highlights": [],
+      "startDate": "2021",
+      "endDate": "Present"
     }
   ]
 }
